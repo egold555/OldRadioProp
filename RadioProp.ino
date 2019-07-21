@@ -9,9 +9,11 @@
 #define PIN_CHANNEL_SERVO 11
 
 
-#define AUDIO_LOOP 1
-const long AUDIO_LOOP_LENGTH_MS = 528500L;
+//#define AUDIO_LOOP 1
+//const long AUDIO_LOOP_LENGTH_MS = 528500L;
 
+#define AUDIO_LOOP 2
+const long AUDIO_LOOP_LENGTH_MS = 707500L;
 
 long startNextRepeat = 0;
 long startLedNext = 0;
